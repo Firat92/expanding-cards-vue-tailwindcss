@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+	.panel.active {
+		@apply flex flex-grow-5 flex-shrink-0 basis-0;
+	}
+
+	.panel.active h3 {
+		@apply transition-opacity opacity-100;
+	}
+}
